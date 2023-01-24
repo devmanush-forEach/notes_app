@@ -1,0 +1,22 @@
+.drawer_main_box {
+  padding: 30px;
+  height: 100vh;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  min-width: 300px;
+  background-color: #b2b2b2;
+  z-index: 9999;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.cross_icon {
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  display: block;
+}

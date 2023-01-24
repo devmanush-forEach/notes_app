@@ -1,0 +1,52 @@
+.main_header {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: #292929;
+  z-index: 99;
+}
+
+.main_navbar {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr 200px;
+}
+
+.left_main_nav {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.right_main_nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.right_main_nav {
+}
+
+.add_note_btn {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}

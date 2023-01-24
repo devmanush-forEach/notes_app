@@ -1,0 +1,22 @@
+.home_main_container {
+  margin-top: 60px;
+  background-color: #b2b2b2;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home_main_container > h2 {
+  color: white;
+  padding: 20px 0px;
+  font-weight: 400;
+  font-style: italic;
+  border-bottom: 1px solid teal;
+}
+
+.note_main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
+  row-gap: 40px;
+}

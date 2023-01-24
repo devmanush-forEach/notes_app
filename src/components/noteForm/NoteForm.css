@@ -1,0 +1,32 @@
+.note_form_box {
+  width: 400px;
+}
+
+.note_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.note_form > input,
+textarea {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+:focus {
+  border-bottom: 2px solid teal;
+}
+
+.note_form > input:focus {
+  border-bottom: 2px solid teal;
+}
+
+.form_submit_btn {
+  height: 40px;
+  background-color: teal;
+  outline: none;
+  border: none;
+  color: white;
+}

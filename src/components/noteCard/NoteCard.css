@@ -1,0 +1,50 @@
+.note_card {
+  width: 22%;
+  background-color: white;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.delete_icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: teal;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.note_bookmark {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #b2b2b2;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.note_title {
+  text-transform: capitalize;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+.note_description {
+  width: 100%;
+  text-align: left;
+}
+
+.note_date {
+  width: 100%;
+  text-align: left;
+}
+
+.heading {
+  font-weight: 500;
+}

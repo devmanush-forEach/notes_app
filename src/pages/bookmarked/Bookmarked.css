@@ -1,0 +1,14 @@
+.bookmarked_note_page {
+  width: 100%;
+  margin-top: 60px;
+  background-color: #b2b2b2;
+  height: 100vh;
+}
+
+.bookmarked_note_page > h2 {
+  color: white;
+  padding: 20px 0px;
+  font-weight: 400;
+  font-style: italic;
+  border-bottom: 1px solid teal;
+}
